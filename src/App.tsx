@@ -36,7 +36,6 @@ function App() {
     const saveHistoryItems = async () => {
       try {
         await store.set('historyItems', JSON.stringify(historyItems));
-        await store.save();
       } catch (error) {
         console.error("Failed to save history items to store", error);
       }

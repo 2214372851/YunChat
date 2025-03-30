@@ -1,34 +1,38 @@
-# YunChat - AI Chat Application
+# YunChat - AI Chat 应用
 
-YunChat is a multi-provider AI chat application built with Rust and TypeScript, supporting various AI service providers
-like OpenAI, Anthropic, and Google.
+> 目前还有狠毒问题待完善，实测 openai接口 及 gemini 正常使用，后续将完善 MCP 等功能的支持
 
-## Features
+YunChat 是使用 Rust 和 TypeScript 构建的多方 AI 聊天应用，支持各种 AI 服务提供商
+像 OpenAI、Anthropic 和 Google。
 
-- **Multi-provider Support**:
-    - OpenAI (GPT models)
-    - Anthropic (Claude models)
-    - Google (Gemini models)
+![软件截图](/document/img.png)
 
-- **Customizable AI Parameters**:
-    - Temperature
-    - Max tokens
-    - Top-p
-    - Frequency penalty
-    - Presence penalty
+## 功能
 
-- **Streaming Responses**: Real-time streaming of AI responses for better user experience
+- **多提供商支持**：
+    - OpenAI（GPT 模型）
+    - Anthropic （Claude 模型）
+    - Google（双子座型号）
 
-- **Persistent Chat History**: Save and load chat sessions with all configurations
+- **可定制的 AI 参数**：
+    -温度
+    - 最大令牌数
+    - 顶部 p
+    - 频率损失
+    - 存在惩罚
 
-## Getting Started
+- **流式响应**：AI 响应的实时流式，以获得更好的用户体验
 
-### Prerequisites
+- **持久聊天历史记录**：保存和加载包含所有配置的聊天会话
 
-- Node.js (v16+)
-- Rust (latest stable)
+## 入门
+
+### 先决条件
+
+- Node.js （v16+）
+- Rust （最新稳定版）
 - Tauri CLI
 
-### Installation
+### 安装
 
-1. The installation will be completed by the exe in next week's release
+1. 下周release中的安装包进行安装
